@@ -234,7 +234,8 @@ namespace wasp::container {
 		void growSparseIndices(int largestSparseIndex) {
 			int newSize{ largestSparseIndex + 1 };
 			newSize = static_cast<int>(newSize * sparseIndexGrowRatio);
-			unsigned int growBy{ static_cast<unsigned int>(newSize) - sparseIndices.size() };
+			unsigned int growBy{ static_cast<unsigned int>(newSize)
+				- static_cast<unsigned int>(sparseIndices.size()) };
 			sparseIndices.insert(sparseIndices.end(), growBy, invalidIndex);
 		}
 

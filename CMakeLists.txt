@@ -45,7 +45,7 @@ add_custom_command(TARGET scripts POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_di
 
 include_directories(${PROJECT_DIRECTORIES})
 
-add_executable(${PROJECT_NAME} WIN32 ${PROJECT_SOURCES})
+add_executable(${PROJECT_NAME} WIN32 ${PROJECT_SOURCES} resource.rc)
 
 add_dependencies(${PROJECT_NAME} shaders)
 add_dependencies(${PROJECT_NAME} res)
