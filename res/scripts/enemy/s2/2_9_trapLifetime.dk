@@ -1,3 +1,0 @@
-addDeathSpawn("2_9_spawnEmerge");
-timer(trapLifetime);
-die();

@@ -1,3 +1,0 @@
-addDeathSpawn("2_6_spawnEnemy");
-timer(crystalEmergeLifetime);
-die();

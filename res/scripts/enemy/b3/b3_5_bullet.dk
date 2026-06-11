@@ -1,6 +1,0 @@
-let waitTime = 43;
-let speedTime = 57;
-let finalSpeed = 0.8;
-
-timer(waitTime);
-shiftSpeedPeriod(finalSpeed, speedTime);

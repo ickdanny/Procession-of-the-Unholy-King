@@ -1,3 +1,0 @@
-if(chance(0.5)){
-    spawn("powerSmall", entityPosition(), makePolar(initPickupSpeed(), 90.0), "pickupFall");
-}

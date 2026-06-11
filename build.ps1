@@ -17,7 +17,8 @@ cd ..
 # Copy everything into dir
 cp build\Release\ProcessEngine.exe EU05_POTUK\EU05_POTUK.exe
 cp build\*.cso EU05_POTUK\
-cp -r res EU05_POTUK\
+# Cannot copy the base res dir because build process involves copying over scripts
+cp -r build\Release\res EU05_POTUK\res
 cp -r packaging\* EU05_POTUK\
 
 # Zip it up

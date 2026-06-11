@@ -1,5 +1,0 @@
-let health = 10;
-
-setHealth(health);
-addSpawn("2_2_shot");
-addDeathSpawn("smallPower3");

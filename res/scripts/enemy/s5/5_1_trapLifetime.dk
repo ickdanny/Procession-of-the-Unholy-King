@@ -1,3 +1,0 @@
-timer(trapLifetime);
-spawn("flame", entityPosition(), zeroPolar, "5_1_enemy");
-die();

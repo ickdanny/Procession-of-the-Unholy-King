@@ -1,5 +1,0 @@
-setClearMarker();
-timer(trapLifetime);
-
-b2_3_shot4_spiral(true);
-removeEntity();

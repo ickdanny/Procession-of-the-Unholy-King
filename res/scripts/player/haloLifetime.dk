@@ -1,4 +1,0 @@
-timer(6);
-setCollidable();
-timer(205 - 6);
-die();

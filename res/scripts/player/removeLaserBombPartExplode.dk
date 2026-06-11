@@ -1,5 +1,0 @@
-let center = readPoint("laserBombPos");
-setRotation(pointAngle(center, entityPosition()) + 90.0);
-stall();
-timer(11);
-removeEntity();

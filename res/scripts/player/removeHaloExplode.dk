@@ -1,3 +1,0 @@
-killMessage(zeroPoint, "laserBombPos");
-timer(12);
-removeEntity();

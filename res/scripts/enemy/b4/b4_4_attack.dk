@@ -1,4 +1,0 @@
-let health = 4300 * bossHealthMulti;
-
-setHealth(health);
-addSpawn("b4_4_shot");

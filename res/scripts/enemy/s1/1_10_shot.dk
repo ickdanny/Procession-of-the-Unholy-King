@@ -1,3 +1,0 @@
-let speed = 1.9;
-
-spawn("mediumLPurple", entityPosition(), makePolar(speed, entityAngle()), "1_10_bullet");

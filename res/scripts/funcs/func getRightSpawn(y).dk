@@ -1,4 +1,0 @@
-#func getRightSpawn(y)
-
-let preOffset = makePoint(gameWidth + enemySpawnDist, y);
-return preOffset + gameOffset;

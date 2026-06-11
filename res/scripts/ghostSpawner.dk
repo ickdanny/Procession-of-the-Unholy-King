@@ -1,2 +1,0 @@
-stallUntil(isNotSpawning);
-removeEntity();

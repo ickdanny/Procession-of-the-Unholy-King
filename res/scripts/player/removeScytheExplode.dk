@@ -1,4 +1,0 @@
-stall();
-removeCollidable();
-timer(11);
-removeEntity();

@@ -1,8 +1,0 @@
-let slowTime = 16;
-let waitTime = 9;
-let speedTime = 75;
-let finalSpeed = entitySpeed() * 0.85;
-
-shiftSpeedPeriod(0.0, slowTime);
-timer(waitTime);
-shiftSpeedPeriod(finalSpeed, speedTime);
