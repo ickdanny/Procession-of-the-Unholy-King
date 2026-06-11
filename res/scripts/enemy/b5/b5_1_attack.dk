@@ -1,0 +1,16 @@
+let health = 2600 * bossHealthMulti;
+let timeBeforeMove = 92;
+let timeAfterMove = 74;
+let rLow = 25.0;
+let rHigh = 30.0;
+let maxSpeed = 0.55;
+
+setHealth(health);
+addSpawn("b5_1_shot");
+timer(trapLifetime);
+
+while(true){
+    timer(timeBeforeMove);
+    boundGotoDecelerating(bossXLow, bossXHigh, bossYLow, bossYHigh, rLow, rHigh, maxSpeed);
+    timer(timeAfterMove);
+}

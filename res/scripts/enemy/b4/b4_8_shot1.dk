@@ -1,0 +1,27 @@
+let tick = diff(35, 25, 17, 10);
+let speed = 0.2;
+let dist = 5.0;
+let offsetRight = makeVector(dist, 0.0);
+let angle1 = -68.0;
+let angle2 = -35.0;
+let velocity1 = makePolar(speed, angle1);
+let velocity2 = makePolar(speed, angle2);
+let entityVelocityCoefficient = 0.1;
+
+func spawnBullet(position, velocity){
+    velocity = velocity + (entityVelocity() * entityVelocityCoefficient);
+    spawn("sharpYellow", position, velocity);
+}
+
+let difficulty = getDifficulty();
+let position;
+let axis;
+while(true){
+    position = entityPosition();
+    axis = getX(position);
+    mirror(position + offsetRight, velocity1, axis, spawnBullet);
+    if(difficulty >= 2){
+        mirror(position + offsetRight, velocity2, axis, spawnBullet);
+    }
+    timer(tick);
+}

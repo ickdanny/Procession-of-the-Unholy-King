@@ -1,0 +1,67 @@
+left_image]p1
+text]Lilith, show yourself! I  know you're in here       somewhere!
+stop
+left_image]p1_
+right_image]b5
+text]Azrael, I presume?
+stop
+left_image]p1
+right_image]b5_
+text]And you are?
+stop
+left_image]p1_
+right_image]b5
+text]Zephres. I'm Lilith's     sister.
+stop
+left_image]p1
+right_image]b5_
+text]Wait, aren't you supposed to be dead?
+stop
+left_image]p1_
+right_image]b5
+text]Surprisingly, I'm still   alive. But forget that,   why are YOU in MY home?
+stop
+left_image]p1
+right_image]b5_
+text]Well, I'm here to fight   Lilith, kill Lilith, and  get my body back... You'reprobably not gonna let me do that, are you?
+stop
+left_image]p1_
+right_image]b5
+text]You definitely won't be   fighting her tonight.     She's in a coma.
+stop
+left_image]p1
+right_image]b5_
+text]... 
+stop
+text]You're lying.
+stop
+left_image]p1_
+right_image]b5
+text]I wish I were.            Unfortunately, we don't   have the mana to sustain  her body any longer, so itwas either coma or death.
+stop
+left_image]p1
+right_image]b5_
+text]Whatever, forget Lilith!  Just tell me where she putmy body.
+stop
+left_image]p1_
+right_image]b5
+text]Sigh... Lilith asked me tobe honest with you, so I  will... 
+stop
+text]I ate your body.
+stop
+left_image]p1
+right_image]b5_
+text]What?
+stop
+left_image]p1_
+right_image]b5
+text]Apparently it was the onlycompatible mana source    Lilith could get her handson.
+stop
+text]Your body for my life was the trade. I suppose I    should be thanking you.
+stop
+left_image]p1
+right_image]b5_
+track]11
+text]How... HOW DARE YOU? My   body wasn't yours to take,let alone destroy! You    will die, right here,     right now.
+stop
+end

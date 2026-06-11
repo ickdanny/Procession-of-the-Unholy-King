@@ -1,0 +1,11 @@
+if(getDifficulty() >= 2){
+    let speed = 1.9;
+    let symmetry = diff(0, 0, 8, 12);
+
+    let position = entityPosition();
+    func spawnBullet(velocity){
+        spawn("mediumClear", position, velocity);
+    }
+
+    ring(makePolar(speed, 0.0), symmetry, spawnBullet);
+}

@@ -1,0 +1,13 @@
+let time = 205;
+
+let spinMulti = 0.983;
+let timeCoefficient = 1200.0;
+
+setRotation(entityAngle());
+let baseAngle = entityAngle();
+for(let i = 0; i < time; i = i + 1){
+    setAngle(baseAngle - pow(i * timeCoefficient, 0.5));
+    setSpin(entitySpin() * spinMulti);
+    stall();
+}
+die();

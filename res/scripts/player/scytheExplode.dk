@@ -1,0 +1,1 @@
+spawn("scytheExplode", entityPosition(), zeroPolar);

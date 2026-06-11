@@ -1,0 +1,44 @@
+left_image]p1_
+right_image]b2
+text]Halt and identify         yourself!
+stop
+left_image]p1
+right_image]b2_
+text]Me? I'm Pax Terra.
+stop
+left_image]p1_
+right_image]b2
+text]Don't be coy. Listen, I'm the air traffic officer.  All the airspace up here  is my responsibility. 
+stop
+text]Frankly, I don't need any more trouble in my life.  Identify yourself and     come with me.
+stop
+left_image]p1
+right_image]b2_
+text]You need to understand twothings. First, I would    crush you in a fight.     Second, that's exactly    what's gonna happen if    you keep blocking my way. 
+stop
+text]I suggest you stand down.
+stop
+left_image]p1_
+right_image]b2
+text]Sigh... you must be new   around here. 
+stop
+text]Look girlie, I'm not      trying to pick a fight,   but if you want to fly in Acropolis airspace, you   need to follow Acropolis  rules.
+stop
+left_image]p1
+right_image]b2_
+text]Oh shut up already. Look  g i r l i e, you might nothave come here to fight,  but I did. 
+stop
+text]If you value your life,   pretend you never saw me  and scramble back to whereyou came from.
+stop
+left_image]p1_
+right_image]b2
+track]05
+text]Sigh...
+stop
+text]Sector 2 Air Traffic      Officer declaring         unidentified flier 23B    hostile. Permission to    engage?
+stop
+left_image]p1_
+right_image]b2_
+text]*Permission Granted*
+stop
+end

@@ -1,0 +1,5 @@
+directory]res/scripts
+directory]res/image
+directory]res/dialogue
+manifest]res/symbols/symbols.mfst
+manifest]res/midi/midi.mfst

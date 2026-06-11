@@ -1,0 +1,25 @@
+let slowTime = 90;
+let waitTime = 30;
+let shootTime = 30;
+let finalWaitTime = 66;
+
+let bulletSpeed = diff(0.7, 0.8, 0.9, 1.0);
+let tick = diff(15, 15, 10, 10);
+
+shiftSpeedPeriod(0.0, slowTime);
+timer(waitTime);
+
+let position = entityPosition();
+func spawnBullet(velocity){
+    spawn("sharpLRed", position, velocity);
+}
+
+let faceAngle = entityAngle();
+for(let t = 0; t < shootTime; t = t + tick){
+    spawnBullet(makePolar(bulletSpeed, faceAngle + 90.0));
+    spawnBullet(makePolar(bulletSpeed, faceAngle - 90.0));
+    timer(tick);
+}
+
+timer(finalWaitTime);
+die();

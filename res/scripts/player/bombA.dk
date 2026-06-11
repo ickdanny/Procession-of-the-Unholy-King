@@ -1,0 +1,14 @@
+let speed = 2.5;
+let symmetry = 8;
+
+let pos = entityPosition();
+
+func velConsumer(velocity){
+    spawn("scythe", pos, velocity, "scytheSpiral");
+}
+
+let angle = randomAngle();
+let baseVel = makePolar(speed, angle);
+
+#velConsumer(baseVel);
+ring(baseVel, symmetry, velConsumer);

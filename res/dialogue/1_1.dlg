@@ -1,0 +1,70 @@
+left_image]p1_
+right_image]b1
+text]Hey scrap metal! Stop     blowing my stuff up! Do   you have any idea how     expensive these robots    are?
+stop
+left_image]p1
+right_image]b1_
+text]Maybe tell them to run    away next time.
+stop
+left_image]p1_
+right_image]b1
+text]So like, is there a reasonyou're wrecking my ship?
+stop
+left_image]p1
+right_image]b1_
+text]I'm not trying to wreck   it, I'm trying to take it over. Surrender or die,   human!
+stop
+left_image]p1_
+right_image]b1
+text]Umm... I can't let you    take over the ship. It's  kinda my job to prevent   that...
+stop
+left_image]p1
+right_image]b1_
+text]Death it is then. What a  shame.
+stop
+left_image]p1_
+right_image]b1
+text]Hold on hold on! Why do   you want the ship? And canwe please not fight       inside?
+stop
+left_image]p1
+right_image]b1_
+text]Well, I need to make it tothe ground without gettingblown up, and there's no  way I'm making it through port security undetected.
+stop
+text]Basically, you're going tofly me where I need to go.
+stop
+left_image]p1_
+right_image]b1
+text]And where might that be?
+stop
+left_image]p1
+right_image]b1_
+text]I dunno. Where was Lilith Amonson last seen?
+stop
+left_image]p1_
+right_image]b1
+text]Lilith, you mean the      demon? Acropolis tower    maybe?
+stop
+left_image]p1
+right_image]b1_
+text]Then that's where you're  gonna fly me.
+stop
+left_image]p1_
+right_image]b1
+text]We'd never even get close to the tower. They shoot  down everything in sight.
+stop
+left_image]p1
+right_image]b1_
+text]Yeah, I don't care. Give  me the ship or everyone   dies.
+stop
+left_image]p1_
+right_image]b1
+text]Did you hear what I just  said? We're all gonna die anyway if we fly anywhere near the tower.
+stop
+track]03
+text]Looks like we'll have to  fight here after all.
+stop
+left_image]p1
+right_image]b1_
+text]Bring it on!
+stop
+end

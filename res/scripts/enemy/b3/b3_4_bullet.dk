@@ -1,0 +1,18 @@
+let shiftTime = 99;
+let speed = entitySpeed();
+
+addSpawn("b3_4_bullet_shot");
+shiftSpeedPeriod(0.0, shiftTime);
+
+if(getDifficulty() > 0){
+    let position = entityPosition();
+    func spawnBullet(velocity){
+        spawn("smallLRed", position, velocity);
+    }
+
+    let angle = randomAngle();
+    let speed = 0.46;
+    ring(makePolar(speed, angle), getDifficulty() * 3, spawnBullet);
+}
+
+shiftSpeedPeriod(-speed, shiftTime);

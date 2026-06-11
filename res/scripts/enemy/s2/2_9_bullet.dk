@@ -1,0 +1,9 @@
+let rainbowEntitySpeedMulti = 1.5;
+
+setSpecialCollisionTarget();
+stall();
+stallUntil(specialCollision);
+
+rainbowBullet(rainbowEntitySpeedMulti);
+
+die();

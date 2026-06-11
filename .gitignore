@@ -1,12 +1,7 @@
 *.xml
 *.iml
-*.png
-*.mid
-*.cfg
 *.zip
-*.dlg
 *.cap
 .idea/
 cmake-build-debug/
 cmake-build-release/
-res/

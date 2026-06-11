@@ -1,0 +1,56 @@
+left_image]p1_
+right_image]b3
+text]Hey, hey, hey, stop! Don'ttouch that!
+stop
+left_image]p1_
+right_image]b3_
+text]*crash*
+stop
+left_image]p1_
+right_image]b3
+text]Oh no... did you... did   you destroy the entire    floor!?
+stop
+left_image]p1
+right_image]b3_
+text]Sorry lady, but I didn't  start any of this. Call   your people off and let mepass. I'm not here to     destroy your stuff.
+stop
+left_image]p1_
+right_image]b3
+text]Um... I don't really      believe you, you know,    with your military shell  and everything.
+stop
+text]Are you a lab escapee?
+stop
+left_image]p1
+right_image]b3_
+text]Nope. I'm just a girl witha grudge and places to be.
+stop
+left_image]p1_
+right_image]b3
+text]Gosh, the cleaning crew isgonna be furious. More    importantly, I need you tostay where you are.
+stop
+left_image]p1
+right_image]b3_
+text]Great. Why does everyone  want to get in my way     today?
+stop
+left_image]p1_
+right_image]b3
+text]I really can't let you    leave after what you've   done.
+stop
+left_image]p1
+right_image]b3_
+text]Well, I was kinda hoping  you would...
+stop
+left_image]p1_
+right_image]b3
+text]You destroyed the whole   floor!
+stop
+left_image]p1
+right_image]b3_
+track]07
+text]You know what, I really   don't have time for this  right now. Get out of my  way or suffer the         consequences!
+stop
+left_image]p1_
+right_image]b3
+text]... I really don't get    paid enough for this.
+stop
+end

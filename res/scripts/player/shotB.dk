@@ -1,0 +1,124 @@
+let yOffset = 8.0;
+let speed = 10.0;
+
+let yOffsetVector = makeVector(0.0, yOffset);
+
+func spawnSingle(offset, angle){
+    if(isFocused()){
+        spawn("smallLaser", entityPosition() + offset + yOffsetVector, makePolar(speed, 90.0));
+    }
+    else{
+        spawn("smallLaser", entityPosition() + offset + yOffsetVector, makePolar(speed, angle));
+    }
+}
+
+func spawnPair(offset, rightAngle){
+    let mirrorOffset = flipY(offset);
+    if(isFocused()){
+        let velocity = makePolar(speed, 90.0);
+        spawn("smallLaser", entityPosition() + offset + yOffsetVector, velocity);
+        spawn("smallLaser", entityPosition() + mirrorOffset + yOffsetVector, velocity);
+    }
+    else{
+        spawn(
+            "smallLaser",
+            entityPosition() + offset + yOffsetVector,
+            makePolar(speed, rightAngle)
+        );
+        spawn(
+            "smallLaser",
+            entityPosition() + mirrorOffset + yOffsetVector,
+            makePolar(speed, 180.0 - rightAngle)
+        );
+    }
+}
+
+#bucket funcs
+#shot functions last about 30 ticks
+
+func func0(){
+    # 3 spawns
+    spawnSingle(zeroVector, 90.0);
+    timer(10);
+    spawnSingle(zeroVector, 90.0);
+    timer(10);
+    spawnSingle(zeroVector, 90.0);
+    timer(10);
+}
+func func1(){
+    # 6 spawns
+    let offset = makeVector(3.5, 0.0);
+    spawnPair(offset, 87.0);
+    timer(10);
+    spawnPair(offset, 87.0);
+    timer(10);
+    spawnPair(offset, 87.0);
+    timer(10);
+}
+func func2(){
+    # 8 spawns
+    let offset = makeVector(3.5, 0.0);
+    spawnPair(offset, 87.0);
+    timer(8);
+    spawnPair(offset, 87.0);
+    timer(8);
+    spawnPair(offset, 87.0);
+    timer(8);
+    spawnPair(offset, 87.0);
+    timer(8);
+}
+func func3(){
+    # 12 spawns
+    let offset = makeVector(5.5, 0.0);
+    for(let i = 0; i < 4; i = i + 1){
+        spawnSingle(zeroVector, 90.0);
+        stall();
+        spawnPair(offset, 84.0);
+        timer(7);
+    }
+}
+func func4(){
+    # 16 spawns
+    let offset1 = makeVector(3.5, 0.0);
+    let offset2 = makeVector(7.0, 0.0);
+    for(let i = 0; i < 4; i = i + 1){
+        spawnPair(offset1, 87.0);
+        stall();
+        spawnPair(offset2, 82.0);
+        timer(7);
+    }
+}
+func func5(){
+    # 20 spawns
+    let offset1 = makeVector(3.5, 0.0);
+    let offset2 = makeVector(7.0, 0.0);
+    for(let i = 0; i < 5; i = i + 1){
+        spawnPair(offset1, 87.0);
+        stall();
+        spawnPair(offset2, 82.0);
+        timer(5);
+    }
+}
+func func6(){
+    # 25 spawns
+    let offset1 = makeVector(5.5, 0.0);
+    let offset2 = makeVector(9.5, 0.0);
+    for(let i = 0; i < 5; i = i + 1){
+        spawnSingle(zeroVector, 90.0);
+        stall();
+        spawnPair(offset1, 84.0);
+        stall();
+        spawnPair(offset2, 79.0);
+        timer(4);
+    }
+}
+
+playerPowerSplit(
+    func0,
+    func1,
+    func2,
+    func3,
+    func4,
+    func5,
+    func6
+);

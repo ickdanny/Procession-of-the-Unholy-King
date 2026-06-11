@@ -1,0 +1,11 @@
+let slowTimeLow = 45;
+let slowTimeHigh = 60;
+let finalSpeedLow = 0.8;
+let finalSpeedHigh = 1.2;
+let angleRand = 15.0;
+
+shiftSpeedPeriod(0.0, random(slowTimeLow, slowTimeHigh));
+let finalSpeed = random(finalSpeedLow, finalSpeedHigh);
+let finalAngle = -90.0 + random(-angleRand, angleRand);
+setVelocity(makePolar(finalSpeed, finalAngle));
+spawn("sharpOrange", entityPosition(), makePolar(finalSpeed, finalAngle + 180.0));
