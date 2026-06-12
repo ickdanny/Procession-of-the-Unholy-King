@@ -19,11 +19,11 @@ To build the game, the following are used:
 
 ## Installation
 
-Install WSWP as follows using Powershell:
+Install POTUK as follows using Powershell:
 
 ```
-git clone https://www.github.com/ickdanny/todo
-cd todo
+git clone https://www.github.com/ickdanny/Procession-of-the-Unholy-King
+cd Procession-of-the-Unholy-King
 .\build.ps1
 ```
 
