@@ -30,3 +30,7 @@ cd Procession-of-the-Unholy-King
 ## Usage
 
 The build script should create the directory `EU05_POTUK` and the archive `EU05_POTUK.zip`. To launch the game, navigate to `EU05_POTUK` and run `EU05_POTUK.exe`.
+
+## Modding
+
+POTUK can be modded without rebuilding because the gameplay is scripted in Darkness, a custom interpreted scripting language. In the `EU05_POTUK` directory, the scripts used by the game at runtime are located in the subdirectory `res\scripts`. The grammar of Darkness can be found in the file `darkness\grammer.txt`, but there is no other documentation for the language.
